@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(183, 86, 243);
+}
+
+.container{
+    /* text-align: center; */
+    background-color: rgb(245, 249, 249);
+    padding: 2rem;
+    border-radius: 1rem;
+    width:40vh;
+    height:45vh;
+}
+
+form{
+    margin-top: 2rem;
+}
+button{
+    margin-top: 1rem;
+}
+form select,button,input{
+    width:100%;
+
+}
+form input{
+    height:2rem;
+    padding-left: 0.5rem;
+
+}
+.conv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+img{
+    width:2rem;
+}
+.dropdown{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+.sel{
+    height:1.3rem;
+    width: 3rem;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    border: none;
+    outline: none;
+}
+i{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  
+}
+form button{
+    height:2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    cursor:pointer;
+    background-color: rgb(205, 218, 233);
+}
+.msgcontainer
+{
+    margin-top: 1rem;
+}
+.from p{
+    margin-left:0.2rem ;
+    margin-bottom: 0.5rem;
+}
+.to p{
+    margin-left:0.4rem ;
+    margin-bottom: 0.5rem;
+}
+.amount p{
+    margin-bottom: 0.5rem;
+}
